@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Navbar */
+
+nav {
+    background-color: #dfdfdf;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+nav img {
+    width: 30px;
+}
+
+.menuNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ulNav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ulNav li {
+    margin-right: 10px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(136, 136, 136);
+}
+
+.tituloD {
+    color: #ff9090;
+}
+
+/* Card Doctor */
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    border: 0.5px solid rgb(136, 136, 136);
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.card:hover {
+    border: 0.5px solid rgb(206, 217, 142);
+}
+
+.card-grid {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    width: 65vw;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+.img_doctor {
+    width: 180px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(136, 136, 136);
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.card p {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.favButton {
+    background-color: rgba(136, 136, 136, 0.116);
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Home */
+
+.homeBody {
+    padding: 20px;
+    min-height: 90vh;
+}
+
+/* Contacto */
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    min-height: 90vh;
+}
+
+.contacto p {
+    margin-top: 20px;
+}
+
+/* Formulario */
+
+.divForm {
+    height: 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+input[type="email"],
+[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.botonFormulario {
+    background-color: #658eff;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.error {
+    width: 300px;
+    color: #ff0000;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.mensaje {
+    color: #000;
+}
+
+/* Detalles dentistas */
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailDiv {
+    margin-top: 100px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.columna1 {
+    font-weight: bold;
+}
+
+
+/* Footer */
+
+footer {
+    height: 180px;
+}
+
+.imgDH {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.textoP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ff0000;
+    height: 30px;
+}
+
+.footerImagenes {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.iconosFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconosFooter img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+/* Modo Oscuro */
+
+.dark {
+    background-color: #000000;
+    color: white;
+}
+
+.dark .textoP {
+    background-color: #ff9090;
+}
+
+.dark a {
+    color: rgb(255, 255, 255);
+}
+
+.dark a:hover {
+    color: #ff9090;
+}
+
+.contenido-dark {
+    background-color: #666666;
+    color: white;
+}
+
+.error-dark {
+    color: #ff9090;
+}
+
+.mensaje-dark {
+    color: #ffffff;
+}
+
+.h3-dark a {
+    color: #ffffff;
+}
+
+.h3-dark a:hover {
+    color: rgb(206, 217, 142);
+}
